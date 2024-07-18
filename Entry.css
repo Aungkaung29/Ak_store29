@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Entry-div {
+	display: inline-flex;
+	margin-top:20px;
+	
+}
+.Entry-div input{
+	padding:10px;
+}
+div label{
+	width:180px;
+}
+.Button-div input{
+	background-color:royalblue;
+	color:white;
+	padding:10px;
+}

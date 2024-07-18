@@ -1,0 +1,66 @@
+     /* Additional CSS styles specific to this page */
+      body{
+      	
+      }
+        .error-message {
+            color: red;
+            margin-top: 10px;
+        } .ongoing-sale {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1000;
+}
+ .link {
+        display: inline-block;
+        padding: 5px 10px;
+        margin-right: 10px;
+        text-decoration: none;
+        background-color: #007bff; /* Blue button color, you can change this */
+        color: #fff; /* Text color */
+        border: 1px solid #007bff; /* Matching border color */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth hover effect */
+
+        /* Optional: Adjust padding, font size, etc. */
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .link:hover {
+        background-color: #0056b3; /* Darker shade of blue on hover */
+        border-color: #0056b3; /* Darker border color on hover */
+        color: #fff; /* Text color on hover */
+        text-decoration: none; /* Remove underline on hover */
+    }
+        
+        .sale-div {
+            margin-top: 20px;
+        }
+        .sale-div input {
+            padding:10px;
+            margin-bottom: 10px;
+        }
+        table {
+            border: 1px dotted black;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .header {
+            font-weight: bold;
+        }
+        .sale-table .item td {
+            padding: 10px;
+        }
+        .sale-actions {
+            margin-top: 10px;
+        }
+        .total-sum {
+            color: orange;
+            font-weight: bolder;
+            font-size: 18px;
+        }
